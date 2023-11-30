@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Add Map</title>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    
+        <link rel="stylesheet" type="text/css" href="./Map.css" />
+        <script type="module" src="./MapLogic.js"></script>
+      </head>
+      <body>
+        <div class="Container">
+          <div class="UpperPart">
+
+          <h3>My Google Maps Demo</h3>
+          <div class="Inputs">
+            <input type="button"id="hideMarkerBTN" value="Hide Markers !" />
+            <input type="button"id="showMarkerBTN" value="Show Markers !" />
+            <input type="button"id="deleteMarkerBTN" value="Delete Markers !" />
+          </div>  
+        </div>
+     <div class="MapStyle">
+        <div id="map"></div>
+    
+    
+        <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD4LuKETnREWw6hb-iTgH4Btsrdog7gf7c&callback=initMap&v=weekly"defer> </script>
+      </div>
+      </div>
+      </body>
+</html>
